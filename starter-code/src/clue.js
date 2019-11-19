@@ -1,7 +1,7 @@
 // ITERATION 1
 
 // Suspects Collection
-const suspectsArray = [
+let suspectsArray = [
     {
         firstName: "Jacob",
         lastName: "Green",
@@ -59,7 +59,7 @@ const suspectsArray = [
 ];
 
 // Rooms Collection
-const roomsArray = [
+let roomsArray = [
     {name: "Dining Room"},
     {name: "Conservatory"},
     {name: "Kitchen"},
@@ -78,7 +78,7 @@ const roomsArray = [
 ];
 
 // Weapons Collection
-const weaponsArray = [
+let weaponsArray = [
     {name: "rope", weight: 10},
     {name: "knife", weight: 8},
     {name: "candlestick", weight: 2},
@@ -90,15 +90,6 @@ const weaponsArray = [
     {name: "pistol", weight: 20},
 ];
 
-// ITERATION 2
-
-function selectRandom (suspectsArray) {
-    let suspectsIndex = Math.floor((Math.random) * 6)
-    
-}
-
-function pickMystery () {
-
-}
+// ITERATION 2 
 
 // ITERATION 3
